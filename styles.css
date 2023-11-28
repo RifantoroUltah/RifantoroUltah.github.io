@@ -1,0 +1,9 @@
+#ucapanContainer {
+  position: relative;
+  z-index: 1; /* Make sure text is in front of the images */
+}
+
+#albumBackground {
+  z-index: 0; /* Make sure images are in the background */
+  pointer-events: none; /* Allow clicks to pass through the background to elements below */
+}
